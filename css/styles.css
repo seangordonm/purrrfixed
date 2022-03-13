@@ -25,6 +25,7 @@ h3 {
 
 p {
   color: #8f8f8f;
+  font-size: 1.2rem;
 }
 
 
@@ -121,7 +122,6 @@ p {
 
 #press {
   background-color: #0E3EDA;
-  padding-bottom: 3%;
 }
 
 .press-logo {
