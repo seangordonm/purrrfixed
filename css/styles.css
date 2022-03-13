@@ -1,231 +1,198 @@
-<!DOCTYPE html>
-<html>
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Purrrfixed</title>
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Chelsea+Market&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
 
-  <!-- CSS Stylesheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
-
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/ab4a9087da.js" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-
-  <section id="title">
-    <div class="container-fluid">
-
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"> <img src="images/purrrfect-logo-v1.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
-          PURRRfixed</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+p {
+  color: #8f8f8f;
+}
 
 
-      <!-- Title -->
+.container-fluid {
+  padding: 3% 15% 7%;
+}
 
-      <div class="row">
+/* Navigation Bar */
 
-        <div class="col-lg-6">
-          <h1>Meet fixed and interesting Cats nearby.</h1>
-          <a href="https://www.apple.com/app-store/" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button></a>
-          <a href="https://play.google.com/store/apps" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button></a>
-        </div>
+.navbar {
+  padding: 0 0 4.5rem;
+}
 
-        <div class="col-lg-6 title-image-container-height">
-          <img class="title-image" src="images/purrfect cat-02.png" alt="iphone-mockup">
-        </div>
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-      </div>
-  </section>
+.nav-item {
+  padding: 0 18px;
+}
 
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Chelsea Market";
+}
 
-  <!-- Features -->
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFBDE6;
+}
 
-  <section id="features">
+/* Download Buttons */
 
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-circle-check fa-4x"></i>
-        <h3>Easy Navigation.</h3>
-        <p>So easy to use, even your cat could do it.</p>
-      </div>
+.download-button {
+  margin: 5% 3% 5% 0;
+}
 
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-cat fa-4x"></i>
-        <h3>Elite Cat-stomers.</h3>
-        <p>We <em>"vet"</em> every cat, so you don't have to.</p>
-      </div>
+/* Title Section */
 
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-heart fa-4x"></i>
-        <h3>Ensured Success.</h3>
-        <p>Find the love of your cat's life or your money back.</p>
-      </div>
+#title {
+  text-align: left;
+  background-color: #0E3EDA;
+  color: #fff;
+}
 
-    </div>
+.title-image {
+  transform: rotate(12deg);
+  position: absolute;
+}
 
-  </section>
+.title-image-container-height {
+  height: 650px;
+}
 
+/* Features Section */
 
-  <!-- Testimonials -->
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
 
-  <section id="testimonials">
+.feature-box {
+  padding: 4.5%;
+}
 
-    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2 class="testimonial-text">My cat used to be so lonely, but with PURRRfixed's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/cat-02.png" alt="lady-profile">
-          <em>Samantha, Georgia</em>
-        </div>
-        <div class="carousel-item">
-          <h2>I no longer have to lick other cats for love. I've found the perfect 10 on PURRRfixed!!</h2>
-          <img class="testimonial-image" src="images/cat-01.png" alt="cat-profile">
-          <em>Garfield, Indiana</em>
-        </div>
+.icon {
+  color: #FFBDE6;
+  margin-bottom: 1rem;
+}
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  </section>
+.icon:hover {
+  color: #F473B9;
+}
 
+/* Testimonial Section */
 
-  <!-- Press -->
+#testimonials {
+  background-color: #0E3EDA;
+  color: #fff;
+}
 
-  <section id="press">
-    <img class="press-logo tnw-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/WSJ_01.png" alt="wsj-logo">
-    <img class="press-logo biz-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+.testimonial-image {
+  width: 14%;
+  border-radius: 100%;
+  margin: 20px;
+}
 
-  </section>
+.carousel-item {
+  padding: 7% 15%;
+}
 
+/* Press Section */
 
-  <!-- Pricing -->
+#press {
+  background-color: #0E3EDA;
+  badding-bottom: 3%;
+}
 
-  <section id="pricing">
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
 
-    <h2>A Plan for Every Cat's Needs</h2>
-    <p>Simple and affordable price plans for your Cat.</p>
-    <div class="row">
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3 class=plan-name>Hello Kitty</h3>
-          </div>
-          <div class="card-body">
-            <h2>Free</h2>
-            <p>3 Matches Per Day</p>
-            <p>6 Messages Per Day</p>
-            <p>9 Swipes Per Day</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
+.tnw-logo {
+  width: 10%;
+}
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3 class=plan-name>Nine Lives</h3>
-          </div>
-          <div class="card-body">
-            <h2>$9 / mo</h2>
-            <p>9 Matches Per Day</p>
-            <p>18 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
+.biz-logo {
+  width: 20%;
+}
 
-      <div class="pricing-column col-lg-4 col-md-12">
-        <div class="card">
-          <div class="card-header">
-            <h3 class=plan-name>Paw-o-rity</h3>
-          </div>
-          <div class="card-body">
-            <h2>$19 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
+/* Pricing Section */
 
-    </div>
+#pricing {
+  padding: 100px;
+}
 
+.pricing-column {
+  padding: 3% 2%;
+}
 
+.plan-name {
+  font-family: "Chelsea Market";
+  font-size: 1.7rem;
+}
 
+.card-header {
+  background-color: #FFBDE6;
+}
 
-  </section>
+/* CTA Section */
 
+#cta {
+  background-color: #0E3EDA;
+  color: #fff;
+  padding: 7% 15%;
+}
 
-  <!-- Call to Action -->
+.cta-heading {
+  font-family: "Montserrat"
+    font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
-  <section id="cta">
+/*Footer Section */
 
-    <h3 class="cta-heading">Find the True Love of Your Cat's Life Today.</h3>
-    <a href="https://www.apple.com/app-store/" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button></a>
-    <a href="https://play.google.com/store/apps" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button></a>
+#footer {
+  padding: 7% 15%;
+}
 
-  </section>
+.social-icon {
+  margin: 20px 10px;
+}
 
+.fa-envelope {
+  color: #000;
+}
 
-  <!-- Footer -->
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
 
-  <footer id="footer">
-    <a class="navbar-brand" href="#"> <img src="images/purrrfect-logo-v1.png" alt="PURRRfixed Logo" width="30" height="30" class="d-inline-block align-text-top">
-      PURRRfixed</a><br>
-    <i class="social-icon fa-brands fa-facebook-f"></i>
-    <i class="social-icon fa-brands fa-twitter"></i>
-    <i class="social-icon fa-brands fa-instagram"></i>
-    <a href="mailto:seangordonm@gmail.com"><i class="social-icon fa-solid fa-envelope"></i></a>
-    <p>© Copyright 2022 PURRRfixed</p>
+  .title-image {
+    position: static;
+    transform: rotate(0);
 
-  </footer>
-
-
-</body>
-
-</html>
+  }
+}
