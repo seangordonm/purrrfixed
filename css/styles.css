@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -20,7 +20,7 @@ h2 {
 h3 {
   font-family: "Montserrat";
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Chelsea Market";
 }
 
@@ -121,7 +121,7 @@ p {
 
 #press {
   background-color: #0E3EDA;
-  badding-bottom: 3%;
+  padding-bottom: 3%;
 }
 
 .press-logo {
@@ -166,7 +166,7 @@ p {
 
 .cta-heading {
   font-family: "Montserrat"
-    font-weight: bold;
+  font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
