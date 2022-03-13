@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -25,7 +26,6 @@ h3 {
 
 p {
   color: #8f8f8f;
-  font-size: 1.5rem;
 }
 
 
@@ -86,7 +86,6 @@ p {
 #features {
   padding: 7% 15%;
   background-color: #fff;
-  font-size: 1.2rem;
 }
 
 .feature-box {
